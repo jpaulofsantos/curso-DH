@@ -11,8 +11,7 @@ class Ex2Classes(var lista: List<Int>) {
 
     fun multiplica(): Int {
         var list = this.lista
-        var num = list.reduce {a, b -> a * b}
-        return num
+        return list.reduce { a, b -> a * b }
     }
 
 }
