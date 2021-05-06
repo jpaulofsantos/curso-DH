@@ -26,8 +26,6 @@ fun main() {
     println("6 - " + primeirosCem())
     println("----------------")
 
-
-
 }
 
 fun retornaMaior(num1: Int, num2: Int, num3:Int): String {
@@ -61,16 +59,16 @@ fun imprimeImpares(): List<Int> {
     return list
 }
 
+fun verificaNumeros(numA: Int, numB: Int, numC: Int, numD: Int): Boolean {
+    return if (numA > numC && numA > numD) {
+        true
+    } else numB > numC && numB > numD
+}
+
 fun primeirosCem(): List<Int> {
     var list = mutableListOf<Int>()
     for (num in 1..100) {
         list.add(num)
     }
     return list
-}
-
-fun verificaNumeros(numA: Int, numB: Int, numC: Int, numD: Int): Boolean {
-    return if (numA > numC && numA > numD) {
-        true
-    } else numB > numC && numB > numD
 }

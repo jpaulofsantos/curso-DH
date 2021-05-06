@@ -1,4 +1,4 @@
-class Ex2(var lista: List<Int>) {
+class Ex2Classes(var lista: List<Int>) {
 
 
     fun multiplicaNumerosLista(): Int {
@@ -12,6 +12,6 @@ class Ex2(var lista: List<Int>) {
 }
 
 fun main() {
-    var ex2 = Ex2(listOf(2,2,2,2))
+    var ex2 = Ex2Classes(listOf(2,3,2,5))
     println(ex2.multiplicaNumerosLista())
 }
