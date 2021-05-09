@@ -1,3 +1,5 @@
+package listaAula6
+
 class Ex2Classes(var lista: List<Int>) {
 
     fun multiplicaNumerosLista(): Int {

@@ -1,3 +1,5 @@
+package listaAula6
+
 class Ex1Classes(var idade: Int, var sexo: String, var tempoContribuicao: Int) {
 
     fun calculos(): Boolean {

@@ -1,3 +1,8 @@
+package listaAula7.exercicio1
+
+import Cliente
+import Conta
+
 class Exercicio1 {
 }
 
